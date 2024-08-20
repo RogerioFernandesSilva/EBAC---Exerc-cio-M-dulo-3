@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html lang="pt-Br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aprendendo a inserir imagem</title>
+    <title>Formulário de Cadastro - Exercício do Módulo 3</title>
   </head>
-  <body></body>
+  <body>
+    <form action="#" method="post">
+      <h2>Cadastro de Usuário</h2>
+
+      <!-- Campo Nome -->
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <!-- Campo E-mail -->
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required />
+
+      <!-- Campo Senha -->
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required />
+
+      <!-- Botão de Cadastro -->
+      <button type="submit">Cadastrar</button>
+    </form>
+  </body>
 </html>
